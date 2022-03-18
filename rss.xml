@@ -3,31 +3,56 @@
     <channel>
         <title>Answer™のBlog</title>
         <subtitle>“我觉得我写的每一行代码都是诗，即使他们无法运行也很美”</subtitle>
-        <icon>http://example.com/images/favicon.ico</icon>
-        <link>http://example.com</link>
+        <icon>https://answery.cn/images/favicon.ico</icon>
+        <link>https://answery.cn</link>
         <author>
           <name>Answer™</name>
         </author>
         <description>一名无情的摩的佬</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 18 Mar 2022 12:36:46 +0800</pubDate>
-        <lastBuildDate>Fri, 18 Mar 2022 12:36:46 +0800</lastBuildDate>
+        <pubDate>Fri, 18 Mar 2022 16:12:38 +0800</pubDate>
+        <lastBuildDate>Fri, 18 Mar 2022 16:12:38 +0800</lastBuildDate>
         <category term="关键词1" />
         <category term="关键词2" />
         <item>
-            <guid isPermalink="true">http://example.com/hellow/</guid>
+            <guid isPermalink="true">https://answery.cn/hellow/</guid>
             <title>初次见面，请多指教</title>
-            <link>http://example.com/hellow/</link>
-            <pubDate>Fri, 18 Mar 2022 12:36:46 +0800</pubDate>
+            <link>https://answery.cn/hellow/</link>
+            <category term="欢迎" scheme="https://answery.cn/categories/%E6%AC%A2%E8%BF%8E/" />
+            <pubDate>Fri, 18 Mar 2022 16:12:38 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;欢迎大家访问我的博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#欢迎大家访问我的博客&#34;&gt;#&lt;/a&gt; 欢迎大家访问我的博客&lt;/h2&gt;
-&lt;p&gt;本站是一个记录自己学习和其它一些小东西的网站&lt;/p&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;本站使用 Hexo+Github Pages 搭建而成&lt;/p&gt;
+&lt;blockquote blur=&#34;&#34;&gt;
+&lt;p&gt;本博客用于记录自己的学习，分享一些小日常使用吧。&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;毕竟有没有人看都是个问题&lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;以上欢迎大家时不时来看看我有没有来更新&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#以上欢迎大家时不时来看看我有没有来更新&#34;&gt;#&lt;/a&gt; 以上，欢迎大家时不时来看看我有没有来更新&lt;/h2&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://answery.cn/theme-shoka-doc/</guid>
+            <title>写在最前面</title>
+            <link>https://answery.cn/theme-shoka-doc/</link>
+            <category term="欢迎" scheme="https://answery.cn/categories/%E6%AC%A2%E8%BF%8E/" />
+            <category term="Hexo" scheme="https://answery.cn/tags/Hexo/" />
+            <pubDate>Fri, 18 Mar 2022 15:42:54 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;计划了&lt;ins class=&#34;wavy&#34;&gt;两年&lt;/ins&gt;之久的 Blog 终于完成，可喜可贺可喜可贺。&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==&#34;&gt;Hexo&lt;/span&gt; : 本博客搭建框架&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==&#34;&gt;hexo-theme-shoka&lt;/span&gt; ：本博客使用的主题&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by1yZW5kZXJlci1tdWx0aS1tYXJrZG93bi1pdA==&#34;&gt;hexo-renderer-multi-markdown-it&lt;/span&gt;：配套的 markdown 渲染器&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+&lt;h1 id=&#34;经历的路程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#经历的路程&#34;&gt;#&lt;/a&gt; 经历的路程&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;从工作开始就打算搞个自己的博客。但是由于刚毕业，毫无技术。摸摸索索的用原生 JS 去实现了一个大佬基本框架&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96b3V3YW5nLnZpcC8=&#34;&gt;春原庄的雪 | ゆき・もと・ゆず&lt;/span&gt;。&lt;/li&gt;
+&lt;li&gt;之后又用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9lbGVtZW50LmVsZW1lLmNuLyMvemgtQ04=&#34;&gt; element&lt;/span&gt; + &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcv&#34;&gt;VUE&lt;/span&gt; 搭建了后台系统&lt;/li&gt;
+&lt;li&gt;又搞了台 &lt;code&gt;服务器&lt;/code&gt;  &lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;最后服务器过期了，我都没搞完系统的搭建 tips: 还是因为懒了&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;接着用 &lt;code&gt;node.js&lt;/code&gt;  +  &lt;code&gt;MySql&lt;/code&gt;  去完成数据库和接口。但是。。。😏, 由于许久未用 SQL 语句，&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;别讲什么高深的语句，SELECT * 一把梭&lt;/span&gt;，写到分页发现不会了，然后就没然后了🤣&lt;/li&gt;
+&lt;li&gt;又搁置一段时间后，想着在服务器过期前用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93b3JkcHJlc3Mub3JnLw==&#34;&gt; WordPress&lt;/span&gt; 搭建，不出意外的又出意外了。&lt;span class=&#34;red&#34;&gt;再一次搁置了&lt;/span&gt;🤡&lt;/li&gt;
+&lt;li&gt;没多久又看上了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==&#34;&gt; Hexo&lt;/span&gt; 来搭建。&lt;span class=&#34;grey&#34;&gt;然后再一次搁置&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;不过最后，终于是在这段时间搭建完成。至于以后会不会用起来，咱也 &lt;code&gt;不知道&lt;/code&gt; 啊！&lt;br /&gt;
+&lt;strong&gt; 以上就是这两年的路程了&lt;/strong&gt;&lt;br /&gt;
+之后&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;有时间可能大概也许&lt;/span&gt;会接着去完善这个博客&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
     </channel>
