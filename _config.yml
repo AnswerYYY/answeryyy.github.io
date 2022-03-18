@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: のBlog
-subtitle: 闲鱼一枚
+title: Answer™のBlog
+subtitle: “我觉得我写的每一行代码都是诗，即使他们无法运行也很美”
 author: Answer™
 description: 描述123
 keywords: 关键词1,关键词2 # edit for Theme.shoka
@@ -54,11 +54,6 @@ prismjs:
 # Category & Tag
 default_category: uncategorized
 category_map: # edit for Theme.shoka
-  计算机科学: computer-science
-  Java: java
-  二进制杂谈: note
-  零基础学Java语言-浙江大学-翁恺: course-1
-  Theme Shoka Documentation: theme-shoka-doc
 tag_map:
 
 # Date / Time format

@@ -1,4 +1,4 @@
-alternate: Answer
+alternate: Answer™
 # Assets
 statics: / #//cdn.jsdelivr.net/gh/amehime/shoka@latest/
 
@@ -29,13 +29,13 @@ loader:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  github: https://github.com/amehime || github || "#191717"
+  github: https://github.com/AnswerYYY || github || "#191717"
   #google: https://plus.google.com/yourname || google
-  twitter: https://twitter.com/amehime || twitter || "#00aff0"
-  zhihu: https://www.zhihu.com/people/rurismzk || zhihu || "#1e88e5"
+  # twitter: https://twitter.com/amehime || twitter || "#00aff0"
+  # zhihu: https://www.zhihu.com/people/rurismzk || zhihu || "#1e88e5"
   music: https://music.163.com/#/user/home?id=12886823 || cloud-music || "#e60026"
-  weibo: https://weibo.com/amehime || weibo || "#ea716e"
-  about: https://about.me/amehime || address-card || "#3b5998"
+  # weibo: https://weibo.com/amehime || weibo || "#ea716e"
+  about: https://answery.cn/about || address-card || "#3b5998"
   #email: mailto:yourname@mail.com || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -46,9 +46,19 @@ social:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  since: 2010
+  since: 2022
   count: true
 
+# Reward (Donate)
+reward:
+  # If true, reward will be displayed in every article by default.
+  enable: true
+  account:
+    wechatpay: /wechatpay.png
+    alipay: /alipay.png
+    # paypal: /paypal.png
+
+# TagCloud s
 post:
   count: true
 
@@ -62,7 +72,7 @@ post:
 valine:
   appId: Luha9Nv0HE2c79AJ1lSax0Rg-gzGzoHsz #这里不要忘了改
   appKey: W7d95yrRmkOKSe6D8W7eFP7r #这里不要忘了改
-  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  placeholder: ヽ(○´∀`)ﾉ♪ 在此输入你想说的话吧 # Comment box placeholder
   pageSize: 10 # Pagination size
   lang: zh-CN
   tagMember:
@@ -87,3 +97,4 @@ disable_baidu_transformation: true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: true
+
