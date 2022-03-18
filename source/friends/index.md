@@ -6,11 +6,11 @@ copyright: false
 ---
 
 # 本站信息
-- 站名： 優萌初華
-- 站长： 霜月琉璃
-- 地址： https://shoka.lostyu.me
-- 标志： ![霜月琉璃](https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg){height="100" width="100"}
-- 简介： 琉璃的医学 & 编程笔记
+- 站名： Answer™のBlog
+- 站长： Answer™
+- 地址： https://answery.cn
+- 标志： ![霜月琉璃](https://answery.cn/images/avatar.jpg){height="100" width="100"}
+- 简介： Answer™的编程笔记
 
 # 申请方法
 - 添加本站后，在本页留言，格式如下
