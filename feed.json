@@ -17,8 +17,8 @@
             ]
         },
         {
-            "id": "https://answery.cn/theme-shoka-doc/",
-            "url": "https://answery.cn/theme-shoka-doc/",
+            "id": "https://answery.cn/first/",
+            "url": "https://answery.cn/first/",
             "title": "写在最前面",
             "date_published": "2022-03-18T07:42:54.000Z",
             "content_html": "<div class=\"note info\">\n<p>计划了<ins class=\"wavy\">两年</ins>之久的 Blog 终于完成，可喜可贺可喜可贺。</p>\n<ul>\n<li><span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==\">Hexo</span> : 本博客搭建框架</li>\n<li><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==\">hexo-theme-shoka</span> ：本博客使用的主题</li>\n</ul>\n</div>\n<h1 id=\"经历的路程\"><a class=\"anchor\" href=\"#经历的路程\">#</a> 经历的路程</h1>\n<ol>\n<li>从工作开始就打算搞个自己的博客。但是由于刚毕业，毫无技术。摸摸索索的用原生 JS 去实现了一个大佬基本框架<span class=\"exturl\" data-url=\"aHR0cHM6Ly96b3V3YW5nLnZpcC8=\">春原庄的雪 | ゆき・もと・ゆず</span>。</li>\n<li>之后又用<span class=\"exturl\" data-url=\"aHR0cHM6Ly9lbGVtZW50LmVsZW1lLmNuLyMvemgtQ04=\"> element</span> + <span class=\"exturl\" data-url=\"aHR0cHM6Ly9jbi52dWVqcy5vcmcv\">VUE</span> 搭建了后台系统</li>\n<li>又搞了台 <code>服务器</code>  <span class=\"spoiler\" title=\"你知道得太多了\">最后服务器过期了，我都没搞完系统的搭建 tips: 还是因为懒了</span></li>\n<li>接着用 <code>node.js</code>  +  <code>MySql</code>  去完成数据库和接口。但是。。。😏, 由于许久未用 SQL 语句，<span class=\"spoiler\" title=\"你知道得太多了\">别讲什么高深的语句，SELECT * 一把梭</span>，写到分页发现不会了，然后就没然后了🤣</li>\n<li>又搁置一段时间后，想着在服务器过期前用<span class=\"exturl\" data-url=\"aHR0cHM6Ly93b3JkcHJlc3Mub3JnLw==\"> WordPress</span> 搭建，不出意外的又出意外了。<span class=\"red\">再一次搁置了</span>🤡</li>\n<li>没多久又看上了<span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==\"> Hexo</span> 来搭建。<span class=\"grey\">然后再一次搁置</span></li>\n<li>不过最后，终于是在这段时间搭建完成。至于以后会不会用起来，咱也 <code>不知道</code> 啊！<br />\n<strong> 以上就是这两年的路程了</strong><br />\n之后<span class=\"spoiler\" title=\"你知道得太多了\">有时间可能大概也许</span>会接着去完善这个博客</li>\n</ol>\n",
