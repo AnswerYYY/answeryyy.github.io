@@ -70,16 +70,39 @@ post:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
+  # 国内节点 
   appId: Luha9Nv0HE2c79AJ1lSax0Rg-gzGzoHsz #这里不要忘了改
   appKey: W7d95yrRmkOKSe6D8W7eFP7r #这里不要忘了改
+
+  # 国际节点
+  # appId: c9oQrATgYPorg8Mjdip9mu3y-MdYXbMMI
+  # appKey: h5wQLVHJEjecfDulAKWG7VBB
   placeholder: ヽ(○´∀`)ﾉ♪ 在此输入你想说的话吧 # Comment box placeholder
   pageSize: 10 # Pagination size
   lang: zh-CN
+  tagMeta:
+    visitor: 新朋友
+    master: 博主
+    friend: 小伙伴
+    investor: 金主粑粑
+  tagColor:
+    master: "var(--color-orange)"
+    friend: "var(--color-aqua)"
+    investor: "var(--color-pink)"
   tagMember:
     master:
-      # - deea5a8d259d17182a53be1772e4c182
+      - 62bd518c637ea3e9ee1aea391edba798
+      - 2f545498e5f62d409a59ae09d77d61bd
+      - 6e0e93e0b97500c7ea5b97af8cf56912
+      # - hash of master@email.com
+      # - hash of master2@email.com
     friend:
-      - deea5a8d259d17182a53be1772e4c182
+    - 10faa46376c5f2cd8942d6b7d3770cc9
+    - 295be710e31d18af07195262d9f81b66
+      # - hash of friend@email.com
+      # - hash of friend2@email.com
+    investor:
+      # - hash of investor1@email.com
 
 # bgm
 audio:
