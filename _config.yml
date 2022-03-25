@@ -55,6 +55,7 @@ prismjs:
 default_category: uncategorized
 category_map: # edit for Theme.shoka
   工具集: untils
+  Vue: vue
 tag_map:
 
 # Date / Time format
