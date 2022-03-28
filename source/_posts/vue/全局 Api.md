@@ -1,7 +1,7 @@
 ---
-title: 浅尝Vue3
+title: 学习使用Vue3 - One
 date: 2022-3-25 11:54:57
-update: 2022-3-25 11:55:00
+update: 2022-3-28 14:03:52
 tags:
   - Vue3
 categories: [vue]
@@ -71,7 +71,10 @@ app.mount("#app")
 ## [setup](https://v3.cn.vuejs.org/guide/composition-api-setup.html#setup)
 
 `setup`函数是一个新的组件选项。是组件`Composition Api`的入口点。它返回一个对象，对象中的所有属性是响应式数据，可直接在模板使用（类似 Vue2.x 中的 data 函数返回的对象）
-`setup`函数接收两个参数 1.`props` 2.`content`
+`setup`函数接收两个参数
+
+1.  `props`
+2.  `content`
 
 ```js
 <script>
@@ -94,7 +97,7 @@ export default {
 ```html
 <template>
 	<div>
-		<h1>{{num}}</h1>
+		<h1>{ {num} }</h1>
 		<button @click="add">加</button>
 	</div>
 </template>
@@ -119,7 +122,7 @@ export default {
 ```html
 <template>
 	<div>
-		<h1>{{state.count}}</h1>
+		<h1>{ {state.count} }</h1>
 		<button @click="add">加</button>
 	</div>
 </template>
@@ -299,6 +302,69 @@ stop()
 </script>
 ```
 
-<!-- ## watch
-`watch` API完全等效于2.xthis.$watch（以及 `watch` 中相应的选项）。`watch`需要侦听特定的数据源，并在回调函数中执行副作用。默认情况是懒执行的，也就是说仅在侦听的源变更时才执行回调，即初始监听回调函数不执行。
-`watch`接收第一个参数为数据源 -->
+## watch
+
+`watch` API 完全等效于 2.xthis.$watch（以及 `watch` 中相应的选项）。`watch`需要侦听特定的数据源，并在回调函数中执行副作用。默认情况是懒执行的，也就是说仅在侦听的源变更时才执行回调，即初始监听回调函数不执行。
+`watch`接收第一个参数为数据源，可以是：
+
+1. 任意一个返回值的 getter 函数
+2. 一个 ref
+3. 一个包含上述两种数据源的数组
+
+第二个参数是一个回调函数。只有数据源发生改变回调函数才会触发:
+
+### 侦听单个数据源
+
+```js
+// 侦听getter
+const state = reactive({ count: 0 })
+watch(
+	() => state.count,
+	(newVal, oldVal) => {
+		/* ... */
+	}
+)
+// 侦听ref
+const num = ref(0)
+watch(num, (newVal, oldVal) => {
+	/* ... */
+})
+```
+
+### 侦听多个数据源
+
+```js
+const state = reactive({ count: 0 })
+const num = ref(1)
+watch(
+	[() => state.count, num]
+	(newValues, oldValues) => {
+		// 输出数组形式
+		/* ... */
+	}
+)
+```
+
+### 侦听响应式对象
+
+```js
+const state = reactive({
+	person: {
+		name: "Answer",
+		fav: ["书籍", "运动", "音乐"],
+	},
+})
+watch(
+	() => state,
+	(newType, oldType) => {
+		console.log("new:", newType, "old:", oldType)
+	},
+	{ deep: true } // 深度监听
+)
+```
+
+::: info
+如果不使用`deep`， 是无法监听到数据变化的。
+默认情况下，watch 是惰性的, 那什么情况下不是惰性的， 可以立即执行回调函数呢？其实使用也很简单，使用`immediate`选项即可
+watch 和 watchEffect 在停止侦听，清除副作用(相应地 onInvalidate 会作为回调的第三个参数传入)等方面行为一致。
+:::
