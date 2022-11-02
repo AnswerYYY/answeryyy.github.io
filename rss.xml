@@ -15,16 +15,6 @@
         <category term="博客" />
         <category term="Answer™" />
         <item>
-            <guid isPermalink="true">https://answery.cn/uni-app/formatTime/</guid>
-            <title>测试搜索</title>
-            <link>https://answery.cn/uni-app/formatTime/</link>
-            <category term="uni-app" scheme="https://answery.cn/categories/uni-app/" />
-            <category term="初始" scheme="https://answery.cn/tags/%E5%88%9D%E5%A7%8B/" />
-            <pubDate>Wed, 02 Nov 2022 10:41:09 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试&#34;&gt;#&lt;/a&gt; 测试&lt;/h1&gt;
- ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">https://answery.cn/utils/formatTime/</guid>
             <title>时间格式化</title>
             <link>https://answery.cn/utils/formatTime/</link>
