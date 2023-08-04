@@ -7,6 +7,14 @@
     "home_page_url": "https://answery.cn",
     "items": [
         {
+            "id": "https://answery.cn/2023summarize/",
+            "url": "https://answery.cn/2023summarize/",
+            "title": "个人2023年总结",
+            "date_published": "2023-08-04T06:57:10.000Z",
+            "content_html": "<h1 id=\"开篇话语\"><a class=\"anchor\" href=\"#开篇话语\">#</a> 开篇话语</h1>\n<p>掐指一算，出来工作已经有三年之久了，一路跌跌撞撞也是到现在这样子了。百年难得一遇的疫情我都碰见了，什么大风大浪没见过。<img data-src=\"https://answerblogimgs.oss-cn-chengdu.aliyuncs.com/202308041507097.jpg\" alt=\"58D7137A\" /></p>\n<h1 id=\"工作\"><a class=\"anchor\" href=\"#工作\">#</a> 工作</h1>\n<p>赶在 54 青年节前，我跳槽了。不用多久我就会升职加薪，当上总经理，出任 CEO, 迎娶白富美，走向人生巅峰。想想还有点小激动呢。谁知道，天下乌鸦一般黑<img data-src=\"https://answerblogimgs.oss-cn-chengdu.aliyuncs.com/202308041510633.jpg\" alt=\"58D9DCBC\" />。抛开事实不谈，还是挺感谢前公司给的入职的机会，不然不知道现在是不是都进厂打螺丝了（虽然现在好像也是打螺丝）。<strong>至于这三年我学到了什么呢：</strong></p>\n<ol>\n<li>\n<p>VUE 全家桶：做生意又不会做，就是靠用用框架才可以维持的了生活这样子。<img data-src=\"https://answerblogimgs.oss-cn-chengdu.aliyuncs.com/202308041545701.png\" alt=\"58ED1DA1\" /></p>\n</li>\n<li>\n<p>UNI-APP：这个框架总体是很好的，使用最少的学习成本，去完成小程序 + APP+H5 的多端开发，虽然一般我都是只开发微信小程序和 APP😂。</p>\n</li>\n<li>\n<p>与人交流的方式方法：老夫聊发少年狂，遥想当初，谁不是一个热血方刚的少年郎，只是终究被这社会磨去了棱角，变得越发的圆润起来。</p>\n<p>大致就这些吧，实在是编不下去了<img data-src=\"https://answerblogimgs.oss-cn-chengdu.aliyuncs.com/202308041531425.jpg\" alt=\"58ED1DA1\" /></p>\n<h1 id=\"未来\"><a class=\"anchor\" href=\"#未来\">#</a> 未来</h1>\n<p><span class=\"spoiler\" title=\"你知道得太多了\">按照计划，可能就是混吃等死。</span> 未来会发生什么，我现在不清楚，我也不愿意想这么多，我只想快快乐乐过日子。不过现在第一目标是开始去尝试写文章，把自己的<a href=\"https://answery.cn/\">个人网站</a>写起来（因为摸鱼实在是太无聊了）。至于技术嘛，要求不高，能跟上主流就行了，我可卷不动。</p>\n<p><strong>以上，就是个人的小总结了。各位看官，见笑，见笑。</strong></p>\n</li>\n</ol>\n",
+            "tags": []
+        },
+        {
             "id": "https://answery.cn/Vue/Vue2/collapseTransition/",
             "url": "https://answery.cn/Vue/Vue2/collapseTransition/",
             "title": "折叠展开动画",

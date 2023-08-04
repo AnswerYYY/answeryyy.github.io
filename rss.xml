@@ -10,10 +10,36 @@
         </author>
         <description>一名无情的摩的佬</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 02 Nov 2022 17:02:09 +0800</pubDate>
-        <lastBuildDate>Wed, 02 Nov 2022 17:02:09 +0800</lastBuildDate>
+        <pubDate>Fri, 04 Aug 2023 14:57:10 +0800</pubDate>
+        <lastBuildDate>Fri, 04 Aug 2023 14:57:10 +0800</lastBuildDate>
         <category term="博客" />
         <category term="Answer™" />
+        <item>
+            <guid isPermalink="true">https://answery.cn/2023summarize/</guid>
+            <title>个人2023年总结</title>
+            <link>https://answery.cn/2023summarize/</link>
+            <pubDate>Fri, 04 Aug 2023 14:57:10 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;开篇话语&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开篇话语&#34;&gt;#&lt;/a&gt; 开篇话语&lt;/h1&gt;
+&lt;p&gt;掐指一算，出来工作已经有三年之久了，一路跌跌撞撞也是到现在这样子了。百年难得一遇的疫情我都碰见了，什么大风大浪没见过。&lt;img data-src=&#34;https://answerblogimgs.oss-cn-chengdu.aliyuncs.com/202308041507097.jpg&#34; alt=&#34;58D7137A&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工作&#34;&gt;#&lt;/a&gt; 工作&lt;/h1&gt;
+&lt;p&gt;赶在 54 青年节前，我跳槽了。不用多久我就会升职加薪，当上总经理，出任 CEO, 迎娶白富美，走向人生巅峰。想想还有点小激动呢。谁知道，天下乌鸦一般黑&lt;img data-src=&#34;https://answerblogimgs.oss-cn-chengdu.aliyuncs.com/202308041510633.jpg&#34; alt=&#34;58D9DCBC&#34; /&gt;。抛开事实不谈，还是挺感谢前公司给的入职的机会，不然不知道现在是不是都进厂打螺丝了（虽然现在好像也是打螺丝）。&lt;strong&gt;至于这三年我学到了什么呢：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;VUE 全家桶：做生意又不会做，就是靠用用框架才可以维持的了生活这样子。&lt;img data-src=&#34;https://answerblogimgs.oss-cn-chengdu.aliyuncs.com/202308041545701.png&#34; alt=&#34;58ED1DA1&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;UNI-APP：这个框架总体是很好的，使用最少的学习成本，去完成小程序 + APP+H5 的多端开发，虽然一般我都是只开发微信小程序和 APP😂。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与人交流的方式方法：老夫聊发少年狂，遥想当初，谁不是一个热血方刚的少年郎，只是终究被这社会磨去了棱角，变得越发的圆润起来。&lt;/p&gt;
+&lt;p&gt;大致就这些吧，实在是编不下去了&lt;img data-src=&#34;https://answerblogimgs.oss-cn-chengdu.aliyuncs.com/202308041531425.jpg&#34; alt=&#34;58ED1DA1&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;未来&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#未来&#34;&gt;#&lt;/a&gt; 未来&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;按照计划，可能就是混吃等死。&lt;/span&gt; 未来会发生什么，我现在不清楚，我也不愿意想这么多，我只想快快乐乐过日子。不过现在第一目标是开始去尝试写文章，把自己的&lt;a href=&#34;https://answery.cn/&#34;&gt;个人网站&lt;/a&gt;写起来（因为摸鱼实在是太无聊了）。至于技术嘛，要求不高，能跟上主流就行了，我可卷不动。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;以上，就是个人的小总结了。各位看官，见笑，见笑。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://answery.cn/Vue/Vue2/collapseTransition/</guid>
             <title>折叠展开动画</title>
